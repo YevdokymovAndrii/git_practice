@@ -20,3 +20,4 @@ letters = string.ascii_letters
 special_symbols = "!@#$%^&*<>?/|{}"
 is_num = check_numbers(password)
 is_ss = check_ss(password)
+print("useless line to try new things")
