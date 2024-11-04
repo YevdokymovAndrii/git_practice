@@ -40,3 +40,4 @@ if is_num and is_ss and length and let:
     print("you have strong password")
 else:
     print("your password is too weak")
+print("this is test text bla bla bla")
