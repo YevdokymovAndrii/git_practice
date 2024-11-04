@@ -10,6 +10,11 @@ def check_ss(info):
         if i in special_symbols:
             return True
     return False
+def check_len(info):
+    if len(info)>=8:
+        return True
+    else:
+        return False
 
 password = input("Please enter your password")
 print(f"Your password is {password}")
