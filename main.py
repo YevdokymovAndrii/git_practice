@@ -1,5 +1,11 @@
 import string
 
+def check_numbers(info):
+    for i in info:
+        if i in numbers:
+            return True
+    return False
+
 password = input("Please enter your password")
 print(f"Your password is {password}")
 
