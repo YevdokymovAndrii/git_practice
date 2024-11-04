@@ -7,4 +7,3 @@ print(f"Your password is {password}")
 numbers = "0123456789"
 letters = string.ascii_letters
 special_symbols = "!@#$%^&*<>?/|{}"
-print("check")
