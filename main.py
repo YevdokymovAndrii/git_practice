@@ -25,7 +25,7 @@ def check_letters(info):
     else:
         return False
 
-password = input("Please enter your password")
+password = input("Please enter your password - ")
 print(f"Your password is {password}")
 
 #adding variables
