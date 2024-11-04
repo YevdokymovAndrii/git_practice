@@ -36,3 +36,7 @@ is_num = check_numbers(password)
 is_ss = check_ss(password)
 length = check_len(password)
 let = check_letters(password)
+if is_num and is_ss and length and let:
+    print("you have strong password")
+else:
+    print("your password is too weak")
