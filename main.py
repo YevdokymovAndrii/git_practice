@@ -15,6 +15,15 @@ def check_len(info):
         return True
     else:
         return False
+def check_letters(info):
+    counter = 0
+    for i in info:
+        if i in letters:
+            counter += 1
+    if counter >= 5:
+        return True
+    else:
+        return False
 
 password = input("Please enter your password")
 print(f"Your password is {password}")
@@ -25,3 +34,5 @@ letters = string.ascii_letters
 special_symbols = "!@#$%^&*<>?/|{}"
 is_num = check_numbers(password)
 is_ss = check_ss(password)
+length = check_len(password)
+let = check_letters(password)
