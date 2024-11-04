@@ -18,3 +18,5 @@ print(f"Your password is {password}")
 numbers = "0123456789"
 letters = string.ascii_letters
 special_symbols = "!@#$%^&*<>?/|{}"
+is_num = check_numbers(password)
+is_ss = check_ss(password)
